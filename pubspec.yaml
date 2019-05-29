@@ -1,0 +1,50 @@
+name: maypaya_clone
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  # https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a
+  flutter_launcher_icons: "^0.7.0"
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/images/launcher/icon.png"
+  image_path_android: "assets/images/launcher/icon.png"
+  adaptive_icon_background: "assets/images/launcher/background.png"
+  adaptive_icon_foreground: "assets/images/launcher/foreground.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ads1.png
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+
+    - family: boxicons
+      fonts:
+        - asset: assets/fonts/boxicons.ttf
+
+    - family: navbar
+      fonts:
+        - asset: assets/fonts/navbar.ttf
