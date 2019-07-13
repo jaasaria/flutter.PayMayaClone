@@ -1,4 +1,4 @@
-name: maypaya_clone
+name: paymaya_clone
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -19,6 +19,7 @@ dependencies:
 dev_dependencies:
   # https://medium.com/@psyanite/how-to-add-app-launcher-icons-in-flutter-bd92b0e0873a
   flutter_launcher_icons: "^0.7.0"
+  font_awesome_flutter:
   flutter_test:
     sdk: flutter
 

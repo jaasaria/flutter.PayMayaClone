@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../shared/CustomIcons.dart';
+import 'package:paymaya_clone/ui/shared/custom_icons.dart';
 
 class Home extends StatefulWidget {
   final String title;
@@ -68,34 +68,6 @@ class _HomeState extends State<Home> {
             )
           ],
         ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        currentIndex: selectedBottomNav,
-        selectedItemColor: Colors.blue,
-        onTap: _onItemTapped,
-        items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(CustomIcons.home),
-            title: Text('Home'),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(CustomIcons.money),
-            title: Text('Send'),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(CustomIcons.shop),
-            title: Text('Store'),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(CustomIcons.cart),
-            title: Text('Shop'),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(CustomIcons.more),
-            title: Text('More'),
-          ),
-        ],
       ),
     );
   }
